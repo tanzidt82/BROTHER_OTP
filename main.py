@@ -2,7 +2,7 @@ import os
 import telebot
 
 # Railway-এর Environment Variable থেকে টোকেন নেবে, না থাকলে আপনার দেওয়া টোকেনটি ব্যবহার করবে
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8604217157:AAGRJrxh6RDsX6SEOfK7O3u1AJCjpuYlJ-Q")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8604217157:AAF_BgUQwz6twKZPISoxgeyAq5f4xYcnJCM")
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
